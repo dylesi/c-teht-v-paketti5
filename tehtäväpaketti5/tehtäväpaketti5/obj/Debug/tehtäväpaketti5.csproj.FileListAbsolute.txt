@@ -1,0 +1,7 @@
+C:\Users\179492\source\repos\tehtäväpaketti5\tehtäväpaketti5\bin\Debug\tehtäväpaketti5.exe.config
+C:\Users\179492\source\repos\tehtäväpaketti5\tehtäväpaketti5\bin\Debug\tehtäväpaketti5.exe
+C:\Users\179492\source\repos\tehtäväpaketti5\tehtäväpaketti5\bin\Debug\tehtäväpaketti5.pdb
+C:\Users\179492\source\repos\tehtäväpaketti5\tehtäväpaketti5\obj\Debug\tehtäväpaketti5.csproj.AssemblyReference.cache
+C:\Users\179492\source\repos\tehtäväpaketti5\tehtäväpaketti5\obj\Debug\tehtäväpaketti5.csproj.CoreCompileInputs.cache
+C:\Users\179492\source\repos\tehtäväpaketti5\tehtäväpaketti5\obj\Debug\tehtäväpaketti5.exe
+C:\Users\179492\source\repos\tehtäväpaketti5\tehtäväpaketti5\obj\Debug\tehtäväpaketti5.pdb
