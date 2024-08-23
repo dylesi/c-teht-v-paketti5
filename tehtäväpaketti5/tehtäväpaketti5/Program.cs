@@ -43,6 +43,7 @@ namespace tehtäväpaketti5
             new Suoritus ("Englanti", 8),
             new Suoritus ("Ruotsi", 5) });
 
+            a.LaskeKeskiArvo(a);
             b.LaskeKeskiArvo(b);
 
             Console.ReadLine();
@@ -135,11 +136,15 @@ namespace tehtäväpaketti5
 
         public void LaskeKeskiArvo(Oppilas tiedot)
         {
-            foreach (var arvosana in tiedot.suorituslista)
-            {
-                Console.Write(arvosana) ;
-            }
-            Console.WriteLine("Oppilaan " + tiedot.nimi + " keskiarvo on: " + (tiedot.suorituslista.Count));
+             double arvo = 0;
+
+             for (int i = 0; i < tiedot.suorituslista.Count; i++)
+             {  
+                 arvo += tiedot.suorituslista[i].arvosana;
+             }
+             double lopullinenkeskiarvo = arvo / tiedot.suorituslista.Count;
+
+             Console.WriteLine("Oppilaan " + tiedot.nimi + " keskiarvo on: " + (lopullinenkeskiarvo));
         }
     }
 
